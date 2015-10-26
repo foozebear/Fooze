@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1 Load Page" translatesAutoresizingMaskIntoConstraints="NO" id="mLc-aR-2AO">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_750x1334.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpi-Yc-XUe">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dpi-Yc-XUe" secondAttribute="bottom" id="6AZ-FT-9NA"/>
+                <constraint firstAttribute="trailing" secondItem="mLc-aR-2AO" secondAttribute="trailing" id="FNS-ed-44f"/>
+                <constraint firstItem="mLc-aR-2AO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Hos-fL-Gzc"/>
+                <constraint firstAttribute="bottom" secondItem="mLc-aR-2AO" secondAttribute="bottom" id="L5s-1d-tgF"/>
+                <constraint firstItem="mLc-aR-2AO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="U0r-WW-wLg"/>
+                <constraint firstItem="dpi-Yc-XUe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eBc-rz-iSZ"/>
+                <constraint firstAttribute="trailing" secondItem="dpi-Yc-XUe" secondAttribute="trailing" id="roW-qI-Sva"/>
+                <constraint firstItem="dpi-Yc-XUe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rtU-kS-Gvk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="mLc-aR-2AO"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="FNS-ed-44f"/>
+                    <exclude reference="Hos-fL-Gzc"/>
+                    <exclude reference="L5s-1d-tgF"/>
+                    <exclude reference="U0r-WW-wLg"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="mLc-aR-2AO"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="FNS-ed-44f"/>
+                    <include reference="Hos-fL-Gzc"/>
+                    <include reference="L5s-1d-tgF"/>
+                    <include reference="U0r-WW-wLg"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1 Load Page" width="750" height="1334"/>
+        <image name="launch_750x1334.png" width="750" height="1334"/>
+    </resources>
+</document>
